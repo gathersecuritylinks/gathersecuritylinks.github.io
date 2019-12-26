@@ -1,0 +1,478 @@
+body, html
+{
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8 "Lato", sans-serif;
+	color: #777;
+}
+
+.header
+{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	background-color: #1a1a1c;
+	height: 130px;
+ }
+
+
+.header h2
+{
+	text-align: center;
+}
+
+.logo{
+
+	margin-left: 20px;
+}
+
+
+.progress-container
+{
+	width: 100%;
+	height: 10px;
+	background: #262625;
+	top: 130px;
+	position: fixed;
+	z-index: 2;
+}
+
+.progress-bar
+{
+	height: 10px;
+	background: #000080;
+	width: 0%;
+	top: 130px;
+	position: fixed;
+
+}
+
+#main
+{
+	position: absolute;
+	top: 140px;
+	width: 100%;
+	background-color: #1a1a1c;
+}
+
+.anchor
+{
+	display: block;
+	height: 140px;
+	margin-top: -140px;
+	visibility: hidden;
+}
+
+#titre1, #titre2, #titre3, #titre4, #titre5, #titre6
+{
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#titre1
+{
+	background-image: url("img/shield1.jpg");
+	min-height: 650px;
+
+
+}
+
+#titre2
+{
+	background-image: url("img/cyber1.png");
+	min-height: 650px;
+
+}
+
+#titre3
+{
+	background-image: url("img/cyber5.png");
+	min-height: 650px;
+	background-position: center;
+
+}
+
+#titre4
+{
+	background-image: url("img/cyber7.png");
+	min-height: 650px;
+	background-position: center;
+
+}
+
+#titre5
+{
+	background-image: url("img/keranos.jpg");
+	min-height: 400px;
+	background-position: center;
+
+}
+
+#titre6
+{
+	background-image: url("img/nicolbolas.jpg");
+	min-height: 400px;
+	background-position: center;
+}
+
+.titre
+{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+  transform: translateY(-200%);
+	color: black;
+}
+
+.titre span
+{
+	background-color: black;
+	color: #fff;
+	padding: 18px;
+	font-size: 35px;
+	letter-spacing: 10px;
+	font-weight: bold;
+}
+
+.texte
+{
+	color: white;
+	background-color: #848385;
+	text-align: center;
+	text-align: justify;
+}
+
+}
+
+#navbar
+{
+	overflow: hidden;
+	padding: 15px 0px;
+	transition: 0.4s;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 99;
+
+}
+
+#navbar a
+{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 25px;
+	border-radius: 4px;
+
+}
+
+#navbar #logo
+{
+	font-size: 35px;
+	font-weight: bold;
+	transition: 0.4s;
+}
+
+#navbar-left
+{
+	float: left;
+	padding: 1px;
+	font-size: bold;
+}
+
+#navbar-right
+{
+	float: right;
+	padding: 25px;
+	font-size: bold;
+}
+
+#navbar a:hover
+{
+	background-color: #000080;
+	color: white;
+}
+
+#navbar a.active
+{
+	margin-top: 10px;
+	background-color: #000080;
+	color: white;
+}
+
+.footer
+{
+	padding: 20px;
+	text-align: center;
+	background: #202020;
+	bottom: 0;
+}
+
+#undernav
+{
+	text-align: center;
+	background: #ddd;
+	top: 0;
+
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+	justify-content: center;
+}
+.flex-container > div {
+  background-color: yellow;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+.flex-container-modal {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #202020;
+	justify-content: space-around;
+}
+.flex-container-modal > div {
+  background-color: #202020;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 3px;
+  font-size: 30px;
+}
+
+.flex-container-logo {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1a1a1c;
+	justify-content: center;
+
+}
+.flex-container-logo > div {
+  background-color: #1f1f21;
+  width: 300px;
+	height: 150px;
+	margin-left:10px;
+	margin-top: 60px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+	color: #1a1a1c;
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
+.flex-container-logo2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+	justify-content: center;
+
+}
+.flex-container-logo2 > div {
+  background-color: black;
+  width: 600px;
+	height: 100px;
+	margin-left:10px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+	color: #1a1a1c;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
+
+
+.flex-container-logo3 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #848385;
+	justify-content: center;
+}
+.flex-container-logo3 > div {
+  background-color: #848385;
+  width: 300px;
+  margin: 10px;
+	margin-left:100px;
+	margin-right: 100px;
+	margin-bottom: 40px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+
+.flex-container-line {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1a1a1c;
+	justify-content: center;
+
+}
+.flex-container-line > div {
+  background-color: #1a1a1c;
+  width: 1200px;
+  margin: 10px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	margin-right: 20px;
+	margin-left: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* The Modal (background) */
+.modal {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-color: rgba(0,0,0,0.4); /* #1a1a1c w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+ background-color: #202020;
+ border-radius: 20px;
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #888;
+ width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal-header {
+  padding: 2px 16px;
+  background-color: #9a5ce0;
+	border-radius: 20px;
+  color: white;
+	margin-bottom: 50px;
+}
+.modal-body {
+	padding: 2px 16px;
+	color: white;
+}
+/* Modal Footer */
+.modal-footer {
+  padding: 3px 16px;
+  background-color: #9a5ce0;
+  color: white;
+	border-radius: 20px;
+	margin-top: 50px;
+}
+/* The Close Button */
+.close {
+ color: white;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+.close:hover,
+.close:focus {
+ color: #1a1a1c;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+.button {
+  background-color: #9a5ce0;
+  border: none;
+  color: white;
+  padding: 32px 64px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+	border-radius: 20px;
+}
+button:hover {opacity: 1}
+
+.typewriter h1 {
+  color: white;
+  font: 400 15px/1.8 "Lato", sans-serif;
+	font-size: 40px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid blue; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: blue}
+}
+
+/* Slide */
+.slide div img {
+	margin-left: 0px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.slide div:hover img {
+	margin-left: -40px;
+}
+
+
+
+@media only screen and (max-device-width: 1366px)
+{
+	.parallax
+	{
+		background-attachment: scroll;
+	}
+
+}
+@media only screen and (max-width: 900px) {
+
+	.hidenav {
+    display: none;
+  }
+
+	.flex-container-line > div {
+	  background-color: #F5F0E2;
+	  width: 300px;
+	  margin: 10px;
+	  text-align: center;
+	  line-height: 50px;
+	  font-size: 30px;
+	}
+}
